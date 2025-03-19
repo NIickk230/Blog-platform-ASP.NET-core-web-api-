@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left Sidebar */
+  .sidebar {
+    width: 30%;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .sidebar input,
+  .sidebar textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+  }
+  
+  .sidebar textarea {
+    resize: vertical;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #666;
+  }
+  
+  /* Right Section for Blog Posts */
+  .blog-posts {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: auto;
+  }
+  
+  .blog-post {
+    flex: 1 1 calc(50% - 20px);
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .blog-post .author {
+    font-size: 0.9em;
+    color: #555;
+    text-align: right;
+  }
+  
