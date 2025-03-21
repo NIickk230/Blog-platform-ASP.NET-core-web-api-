@@ -7,8 +7,9 @@
         public string Title { get; set; }
         public string Description { get; set; }
 
-        public BlogPfModel(string author, string title, string description)
+        public BlogPfModel(string author, string title, string description, int id)
         {
+            Id = id;
             Author = author;
             Title = title;
             Description = description;

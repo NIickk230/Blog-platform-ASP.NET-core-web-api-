@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Blog_Platform.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/Blogs")]
     public class BlogController : Controller
     {
         private static List<BlogPfModel> Blogs = new List<BlogPfModel>();
@@ -20,7 +20,7 @@ namespace Blog_Platform.Controllers
         [HttpPost]
         public IActionResult CreateBlog([FromBody] BlogPfModel Blog)
         {
-            if (Blog == null || string.IsNullOrEmpty(Blog.Title) || string.IsNullOrEmpty(Blog.Author){
+            if (Blog == null || string.IsNullOrEmpty(Blog.Title) || string.IsNullOrEmpty(Blog.Author)){
                 return BadRequest("title and author are requiered");
             }
 
@@ -30,12 +30,12 @@ namespace Blog_Platform.Controllers
         }
 
         [HttpDelete("{Id}")]
-        public IActionResult DeleteBlog(int blogId)
+        public IActionResult DeleteBlog(int Id)
         {
             BlogPfModel Blog = null;
             foreach(var b in Blogs)
             {
-                if(b.Id == blogId)
+                if(b.Id == Id)
                 {
                     Blog = b;
                     break;
