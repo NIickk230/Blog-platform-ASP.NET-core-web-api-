@@ -38,8 +38,7 @@
               "RelativeToolTip": "Blog-Platform\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T14:45:33.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T14:45:33.196Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Blog-Platform\\Controllers\\BlogController.cs",
               "ToolTip": "C:\\Users\\PC_LION\\Desktop\\Blog-platform-ASP.NET-core-web-api-\\Blog-Platform\\Blog-Platform\\Controllers\\BlogController.cs",
               "RelativeToolTip": "Blog-Platform\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T22:25:15.645Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Blog-Platform\\Models\\BlogPfModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:12:04.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T22:12:04.896Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Blog-Platform\\Blog-Platform.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-19T22:10:23.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T22:10:23.36Z"
             }
           ]
         }

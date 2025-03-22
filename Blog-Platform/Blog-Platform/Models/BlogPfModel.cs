@@ -1,4 +1,6 @@
-﻿namespace Blog_Platform.Models
+﻿using System.Reflection.Metadata;
+
+namespace Blog_Platform.Models
 {
     public class BlogPfModel
     {
@@ -15,6 +17,20 @@
             Description = description;
         }
         
+        public BlogPfModel SearchBlog(List<BlogPfModel> blogs, int id)
+        {
+            BlogPfModel Blog = null;
+            foreach (var b in blogs)
+            {
+                if (b.Id == Id)
+                {
+                    Blog = b;
+                }
+            }
+            return Blog;
+
+        }
+
 
 
     }
