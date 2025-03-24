@@ -28,10 +28,15 @@ namespace Blog_Platform.Models
                 }
             }
             return Blog;
-
         }
 
-
+        public BlogPfModel editBlog(BlogPfModel blog, string author, string title, string description)
+        {
+            blog.Author = author;
+            blog.Title = title;
+            blog.Description = description;
+            return blog;
+        }
 
     }
 }

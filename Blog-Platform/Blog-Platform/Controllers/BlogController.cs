@@ -50,5 +50,11 @@ namespace Blog_Platform.Controllers
             Blogs.Remove(Blog);
             return NoContent();
         }
+
+        [HttpPost("")]
+        public IActionResult editBlog(string author, string titile, string description)
+        {
+
+        }
     }
 }

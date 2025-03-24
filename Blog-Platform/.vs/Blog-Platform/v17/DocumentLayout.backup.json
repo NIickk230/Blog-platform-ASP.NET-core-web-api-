@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{32E7DA1F-88EC-43F5-BC37-31FEF77AC831}|Blog-Platform\\Blog-Platform.csproj|solutionrelative:blog-platform\\blog-platform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{32E7DA1F-88EC-43F5-BC37-31FEF77AC831}|Blog-Platform\\Blog-Platform.csproj|c:\\users\\pc_lion\\desktop\\blog-platform-asp.net-core-web-api-\\blog-platform\\blog-platform\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32E7DA1F-88EC-43F5-BC37-31FEF77AC831}|Blog-Platform\\Blog-Platform.csproj|solutionrelative:blog-platform\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32E7DA1F-88EC-43F5-BC37-31FEF77AC831}|Blog-Platform\\Blog-Platform.csproj|c:\\users\\pc_lion\\desktop\\blog-platform-asp.net-core-web-api-\\blog-platform\\blog-platform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32E7DA1F-88EC-43F5-BC37-31FEF77AC831}|Blog-Platform\\Blog-Platform.csproj|solutionrelative:blog-platform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_LION\\Desktop\\Blog-platform-ASP.NET-core-web-api-\\Blog-Platform\\Blog-Platform\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Blog-Platform\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\PC_LION\\Desktop\\Blog-platform-ASP.NET-core-web-api-\\Blog-Platform\\Blog-Platform\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Blog-Platform\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T20:52:47.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC_LION\\Desktop\\Blog-platform-ASP.NET-core-web-api-\\Blog-Platform\\Blog-Platform\\Program.cs",
               "RelativeDocumentMoniker": "Blog-Platform\\Program.cs",
@@ -48,7 +65,7 @@
               "RelativeDocumentMoniker": "Blog-Platform\\Controllers\\BlogController.cs",
               "ToolTip": "C:\\Users\\PC_LION\\Desktop\\Blog-platform-ASP.NET-core-web-api-\\Blog-Platform\\Blog-Platform\\Controllers\\BlogController.cs",
               "RelativeToolTip": "Blog-Platform\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T22:25:15.645Z",
               "EditorCaption": ""
@@ -61,9 +78,10 @@
               "RelativeDocumentMoniker": "Blog-Platform\\Models\\BlogPfModel.cs",
               "ToolTip": "C:\\Users\\PC_LION\\Desktop\\Blog-platform-ASP.NET-core-web-api-\\Blog-Platform\\Blog-Platform\\Models\\BlogPfModel.cs",
               "RelativeToolTip": "Blog-Platform\\Models\\BlogPfModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T22:12:04.896Z"
+              "WhenOpened": "2025-03-19T22:12:04.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +93,8 @@
               "RelativeToolTip": "Blog-Platform\\Blog-Platform.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-19T22:10:23.36Z"
+              "WhenOpened": "2025-03-19T22:10:23.36Z",
+              "EditorCaption": ""
             }
           ]
         }
